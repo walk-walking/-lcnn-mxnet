@@ -1,0 +1,86 @@
+train.py:51: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  scores.extend(F.softmax(output).detach().cpu().numpy()[:, 1:])
+train.py:70: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  scores.extend(F.softmax(output).detach().cpu().numpy()[:, 1:])
+/home/centos/.conda/envs/lcnn-3.6.0/lib/python3.6/site-packages/numpy/matrixlib/defmatrix.py:145: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray
+  arr = N.array(data, dtype=dtype, copy=copy)
+the loss is 0.1495940089225769
+epoch 0 
+eer EER is :49.579832 %
+eer AUC is :0.507016
+eer thd is :0.133196
+hter HTER is :50.000000 %
+hter FAR is :0.000000
+hter FRR is :1.000000
+the loss is 0.005168914794921875
+epoch 5 
+eer EER is :49.096386 %
+eer AUC is :0.583245
+eer thd is :0.002559
+hter HTER is :50.000000 %
+hter FAR is :0.000000
+hter FRR is :1.000000
+the loss is 0.0009963512420654297
+epoch 10 
+eer EER is :31.572629 %
+eer AUC is :0.736283
+eer thd is :0.007873
+hter HTER is :38.936960 %
+hter FAR is :0.063253
+hter FRR is :0.715486
+the loss is 2.384185791015625e-05
+epoch 15 
+eer EER is :26.650660 %
+eer AUC is :0.812728
+eer thd is :0.062454
+hter HTER is :31.041204 %
+hter FAR is :0.194654
+hter FRR is :0.426170
+the loss is 9.059906005859375e-06
+epoch 20 
+eer EER is :27.597892 %
+eer AUC is :0.810349
+eer thd is :0.040122
+hter HTER is :30.838759 %
+hter FAR is :0.195407
+hter FRR is :0.421369
+the loss is 5.245208740234375e-06
+epoch 25 
+eer EER is :28.087349 %
+eer AUC is :0.808853
+eer thd is :0.030324
+hter HTER is :30.955259 %
+hter FAR is :0.196536
+hter FRR is :0.422569
+the loss is 3.337860107421875e-06
+epoch 30 
+eer EER is :28.200301 %
+eer AUC is :0.807913
+eer thd is :0.025518
+hter HTER is :30.857584 %
+hter FAR is :0.195783
+hter FRR is :0.421369
+the loss is 2.384185791015625e-06
+epoch 35 
+eer EER is :28.331333 %
+eer AUC is :0.807240
+eer thd is :0.022244
+hter HTER is :30.857584 %
+hter FAR is :0.195783
+hter FRR is :0.421369
+the loss is 1.9073486328125e-06
+epoch 40 
+eer EER is :28.571429 %
+eer AUC is :0.806715
+eer thd is :0.019071
+hter HTER is :30.857584 %
+hter FAR is :0.195783
+hter FRR is :0.421369
+the loss is 1.430511474609375e-06
+epoch 45 
+eer EER is :28.689759 %
+eer AUC is :0.806268
+eer thd is :0.017229
+hter HTER is :30.838759 %
+hter FAR is :0.195407
+hter FRR is :0.421369

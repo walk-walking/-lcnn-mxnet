@@ -1,0 +1,46 @@
+train.py:53: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  scores.extend(F.softmax(output).detach().cpu().numpy()[:, 1:]) #detach 阻断反向传播，返回值tensor   cpu将数据移至cpu   numpy将tensor转numpy
+train.py:83: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  scores.extend(F.softmax(output).detach().cpu().numpy()[:, 1:])  #scores为list类型 len(scores)  softmax后只取了第二列的值
+/home/centos/.conda/envs/lcnn-3.6.0/lib/python3.6/site-packages/numpy/matrixlib/defmatrix.py:145: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray
+  arr = N.array(data, dtype=dtype, copy=copy)
+the loss is 0.11816108226776123
+epoch 0 
+eer EER is :48.859544 %
+eer AUC is :0.502695
+eer thd is :0.120451
+hter HTER is :49.981175 %
+hter FAR is :0.999623
+hter FRR is :0.000000
+the loss is 0.0030956268310546875
+epoch 1 
+eer EER is :54.741897 %
+eer AUC is :0.475265
+eer thd is :0.002289
+hter HTER is :50.000000 %
+hter FAR is :0.000000
+hter FRR is :1.000000
+the loss is 0.002263784408569336
+epoch 2 
+eer EER is :56.782713 %
+eer AUC is :0.472606
+eer thd is :0.001121
+hter HTER is :50.000000 %
+hter FAR is :0.000000
+hter FRR is :1.000000
+the loss is 0.004303693771362305
+epoch 3 
+eer EER is :53.652108 %
+eer AUC is :0.524691
+eer thd is :0.001933
+hter HTER is :50.000000 %
+hter FAR is :0.000000
+hter FRR is :1.000000
+the loss is 0.005887508392333984
+epoch 4 
+eer EER is :46.084337 %
+eer AUC is :0.625471
+eer thd is :0.002790
+hter HTER is :50.000000 %
+hter FAR is :0.000000
+hter FRR is :1.000000
